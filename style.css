@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div  {
+    display: block;
+}
+
+html,body {
+    max-width: 100%;
+    
+}
+
+
+#wrap-first-form{
+    width: 1000px;
+    height: 1200px;
+    margin: 0px auto;
+    background: linear-gradient(180deg, #008aaf, #ff137d);
+}
+
+
+
+
+footer{
+    width: 1000px;
+    height: 100px;
+    margin: 0% auto;
+    background: linear-gradient(180deg, #008aaf, #ff137d);
+}
+
+.age{
+    position: relative;
+    margin-left: 15px;
+}
+
+
+
+.btn-primary{
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    margin-left: 220px;
+    margin-top: -100px;
+}
+
+
+
+body{
+    background: linear-gradient(180deg, #008aaf, #ff137d);
+}
+
+.col-md-6{
+    width: 200px;
+    margin-left: 10px;
+}
+
+
+
+.col-12{
+    width: 400px;
+    float: left;
+    margin-left: -410px;
+    margin-top: 100px;
+}
+
+
+
+
+
+.col-13{
+    width: 400px;
+    float: left;
+    margin-left: -400px;
+    margin-top: 190px;
+}
+
+
+
+
+
+.col-md-4{
+width: 80px;
+height: 30px;
+margin-top: 280px;
+float: left;
+margin-left: -610px;
+}
+
+
+
+.col-md-2{
+    margin-top: 360px;
+    float: left;
+    margin-left: -80px;
+
+}
+
+
+.col-14{
+    margin-top: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+
+
+.form-check-inline{
+    margin-left: 20px;
+}
+
+
+
+
+.form-check{
+    margin-left: 20px;
+}
+
+
+.h1-3{
+    margin-left: 10px;
+}
+
+
+#inputphone{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#form2-h{
+    background-color: azure;
+    width: 1000px;
+    height: 1000px;
+}
+
+#form2-b{
+    background-color: bisque;
+    height: 1000px;
+    width: 1000px;
+}
+
+
+
+
+.form-horizontal{
+    margin-left: 500px;
+    margin-top: 90px;
+}
+
+
+.btn-primary2{
+    background-color: palegreen;
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+#profile-info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    margin-left: 490px;
+    margin-top: 50px;
+}

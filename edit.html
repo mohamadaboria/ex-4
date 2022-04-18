@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+     <head id="form2-h">
+         <title>Login by mohahamd</title>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+         <link rel="stylesheet" href="style.css"/>
+     </head>
+     <body id="form2-b">
+          <h2 id="profile-info">Edit your profile information</h2>
+
+
+                    <form action="get_params.php" method="get" class="form-horizontal">
+                         <div class="form-group">
+                              <label>fullname</label>
+                              <div class="col-sm-10">
+                                   <input type="text" class="form-control" name="fullName" placeholder="First & Last Name"  required>
+                              </div>
+                         </div>
+                         <div class="form-group">
+                              <label class="col-sm-2 control-label">Password</label>
+                              <div class="col-sm-10">
+                                   <input type="password" pattern="[a-zA-Z0-9]{5,10}" class="form-control" name="pass" placeholder="password" required>
+                              </div>
+                         </div>
+                         <div class="form-group">
+                              <label  class="col-sm-2 control-label">Maill</label>
+                              <div class="col-sm-10">
+                                   <input type="mail" class="form-control" rows="4" name="mail" placeholder="email address" pattern="[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" required>
+                              </div>
+                         </div>
+                         <div class="form-group">
+                              <label class="col-sm-2 control-label">Phone</label>
+                              <div class="col-sm-10">
+                                   <input type="tel" pattern="[0-9]{9,10}" class="form-control" name="phone" placeholder="phone number">
+                              </div>
+                         </div>
+                         
+                         <button type="submit" name="Submit" class="btn-primary2">SAVE</button>
+
+
+
+
+
+
+
+
+
+
+
+          </form>
+          
+     </body>
+
+
+
+
+
+<main></main>
+
+
+
+
+
+
+
+</html>
